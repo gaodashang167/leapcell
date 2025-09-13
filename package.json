@@ -1,14 +1,20 @@
 {
-  "name": "leapcell-vless",
+  "name": "node-ws",
   "version": "1.0.0",
-  "description": "Lightweight VLESS server for Leapcell platform",
-  "main": "app.js",
+  "description": "Node.js Server",
+  "main": "index.js",
+  "author": "eoovve",
+  "repository": "https://github.com/eoovve/node-ws",
+  "license": "MIT",
+  "private": false,
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "ws": "^8.14.2",
+    "axios": "^1.6.2"
+  },
   "engines": {
-    "node": ">=18"
-  },
-  "license": "MIT"
+    "node": ">=14"
+  }
 }
