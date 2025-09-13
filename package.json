@@ -1,18 +1,18 @@
 {
-  "name": "node-ws",
+  "name": "Hello-World",
   "version": "1.0.0",
-  "description": "Node.js Server",
-  "main": "index.js",
-  "author": "eoovve",
-  "repository": "https://github.com/eoovve/node-ws",
+  "description": "Hello-World",
+  "main": "app.js",
+  "repository": "",
+  "author": "my",
   "license": "MIT",
-  "private": false,
   "scripts": {
-    "start": "node index.js"
+  "start": "node app.js"
   },
   "dependencies": {
-    "ws": "^8.14.2",
-    "axios": "^1.6.2"
+    "axios": "^1.9.0",
+    "ws": "^8.18.2",
+    "express": "^5.1.0"
   },
   "engines": {
     "node": ">=14"
